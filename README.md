@@ -33,7 +33,8 @@ php bin/magento module:enable Fisheye_Lazyload
 php bin/magento setup:upgrade
 ```
 Use this repository:
-Add this repository link to composer.json
+Add this repository link to composer.json:
+
     "repositories": [
         {
             "type": "vcs",
