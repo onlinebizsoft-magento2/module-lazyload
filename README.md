@@ -27,13 +27,7 @@ A Magento 2 module that adds support for lazy loading of images.
 
 ## Installation
 
-```
-composer require fisheye/module-lazyload
-php bin/magento module:enable Fisheye_Lazyload
-php bin/magento setup:upgrade
-```
-Use this repository:
-Add this repository link to composer.json:
+Add to composer.json:
 
     "repositories": [
         {
