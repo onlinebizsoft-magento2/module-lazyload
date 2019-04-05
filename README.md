@@ -32,6 +32,14 @@ composer require fisheye/module-lazyload
 php bin/magento module:enable Fisheye_Lazyload
 php bin/magento setup:upgrade
 ```
-
+Use this repository:
+Add this repository link to composer.json
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/onlinebizsoft-magento2/module-lazyload.git"
+        }
+    ]
+    
 ## Contributing
 Issues, forks and pull requests welcomed :)
